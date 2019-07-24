@@ -1,0 +1,14 @@
+coffee tunnel toward skin obscure alien jump ticket fine swallow elegant frost
+
+personal.unlockAccount(eth.accounts[0], "111", 0)
+eth.sendTransaction(from:eth.accounts[0], to:"클립보드 복사", value :10*18)
+
+
+
+geth --networkid 555 --datadir ./ --rpc --rpcport 8545 --rpccorsdomain "*" --rpcapi admin,db,eth,debug,miner,net,shh,txpool,personal,web3
+
+
+npm install -g truffle@5.0.11
+
+
+truffle version
